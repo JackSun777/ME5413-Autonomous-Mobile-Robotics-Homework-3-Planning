@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~speed_target" : \b [double] Default: 0.5[m/s] min: 0.5, default: 0.5, max: 10.0
+- \b "~lookahead_distance" : \b [double] Default: 0.5 min: 0.5, default: 0.5, max: 10.0
+
