@@ -99,9 +99,7 @@ roslaunch me5413_world path_tracking.launch
   - Velocity.
   - Lookahead Distance.
 
-- We have provided you a dynamic reconfigure GUI that allows you to tune these parameters:
-
-  ![rqt_reconfig_image](src/me5413_world/media/rqt_reconfig.png)
+- We have provided you a dynamic reconfigure GUI that allows you to tune these parameters
 
 - We also provides you six topics (and visualized in RVIZ) that computes the real-time errors between your robot and the tracking path:
   - `/me5413_world/planning/abs_position_error` ([m], `std_msgs::Float32`)
